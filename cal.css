@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgb(60, 65, 65);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 367px;
+}
+
+.button{
+    padding: 20px;
+    margin: 5px 10px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 66px;
+    cursor: pointer;
+}
+.row{
+    margin: 8px 0;
+  }
+.row input{
+    width: 334px;
+    font-size: 20px;
+      margin: 0;
+      padding: 10px 0px;
+      border: 2px solid black;
+      border-radius: 5px;
+}
